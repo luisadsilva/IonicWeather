@@ -3,6 +3,16 @@
 
 Aplicativo mobile interativo desenvolvido para fornecer informações climáticas em tempo real de maneira prática e acessível. Ele permite que os usuários consultem as condições meteorológicas atuais, como temperatura, umidade, velocidade do vento e previsões futuras.
 
+
+## Imagens:
+
+![Cadastro](https://github.com/luisadsilva/IonicWeather/blob/main/images/Cadastro.jpeg)
+![Login](https://github.com/luisadsilva/IonicWeather/blob/main/images/Login.jpeg)
+![Tela](https://github.com/luisadsilva/IonicWeather/blob/main/images/Tela%20principal.jpeg)
+![Favoritos](https://github.com/luisadsilva/IonicWeather/blob/main/images/Favoritos.jpeg)
+![CidadesFavoritas](https://github.com/luisadsilva/IonicWeather/blob/main/images/Cidades%20Favoritas.jpeg)
+
+
 ## Como baixar o repositório:
 
 1- Abra o Terminal ou Prompt de Comando.
