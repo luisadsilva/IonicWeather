@@ -41,7 +41,7 @@ cd IonicWeather
 
 Contribuições são sempre bem-vindas!
 
-Veja `contribuindo.md` para saber como começar.
+Veja `CONTRIBUTING.md` para saber como começar.
 
 
 ## Autores
