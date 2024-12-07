@@ -37,14 +37,16 @@ cd IonicWeather
 
 ## Pré-Requisitos:
 
-1- Node.js:
-  - Certifique-se de ter o Node.js instalado no seu sistema. Você pode baixá-lo e instalá-lo através do [site oficial do Node.js](https://nodejs.org/pt).
+1- CLI do Ionic:
+  - Instale a Ionic CLI globalmente no seu sistema para criar e gerenciar projetos Ionic:
 
-2- npm (Node Package Manager):
-  - O npm vem com o Node.js e é necessário para instalar as dependências do projeto.
-  - Certifique-se de que o npm esteja atualizado executando   ``` npm -v ``` no terminal.
+     ``` npm install -g @ionic/cli```
 
-3- Editor de Código:
+  - Verifique se foi instalado corretamente:
+
+    ``` ionic -v```
+
+2- Editor de Código:
   - Um editor de texto ou ambiente de desenvolvimento, como Visual Studio Code, para editar o código e o README do projeto.
 
 
