@@ -9,8 +9,9 @@ Aplicativo mobile interativo desenvolvido para fornecer informações climática
 ![Cadastro](https://github.com/luisadsilva/IonicWeather/blob/main/images/Cadastro.jpeg)
 ![Login](https://github.com/luisadsilva/IonicWeather/blob/main/images/Login.jpeg)
 ![Tela](https://github.com/luisadsilva/IonicWeather/blob/main/images/Tela%20principal.jpeg)
-![Favoritos](https://github.com/luisadsilva/IonicWeather/blob/main/images/Favoritos.jpeg)
 ![CidadesFavoritas](https://github.com/luisadsilva/IonicWeather/blob/main/images/Cidades%20Favoritas.jpeg)
+![Favoritos](https://github.com/luisadsilva/IonicWeather/blob/main/images/Favoritos.jpeg)
+
 
 
 ## Como baixar o repositório:
