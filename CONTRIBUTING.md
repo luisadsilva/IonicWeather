@@ -26,4 +26,57 @@ cd IonicWeather
 
 ## Pré-Requisitos:
 
-1- 
+1- Node.js:
+  - Certifique-se de ter o Node.js instalado no seu sistema. Você pode baixá-lo e instalá-lo através do [site oficial do Node.js](https://nodejs.org/pt).
+
+2- npm (Node Package Manager):
+  - O npm vem com o Node.js e é necessário para instalar as dependências do projeto.
+  - Certifique-se de que o npm esteja atualizado executando   ``` npm -v ``` no terminal.
+
+3- Editor de Código:
+  - Um editor de texto ou ambiente de desenvolvimento, como Visual Studio Code, para editar o código e o README do projeto.
+
+## Como contribuir:
+
+1- Configuração do ambiente:
+
+  - Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/IonicWeather.git
+```
+  - Navegue até o diretório do projeto:
+
+  ```bash
+cd IonicWeather
+```
+  - Instale as dependências:
+
+```bash
+npm install
+```
+
+2- Preparar um novo branch para contribuir:
+  - Crie um novo branch para sua contribuição. Recomenda-se nomear o branch de forma descritiva da funcionalidade que você está adicionando:
+
+  ```bash
+git checkout -b nome-da-sua-contribuicao
+```
+
+3- Fazer as alterações no código: 
+  - Faça as alterações necessárias no código, conforme as instruções do projeto.
+  - Verifique se as mudanças estão funcionando como esperado e faça os testes locais necessários.
+  - Atualize o README.md e outros arquivos, se necessário, para refletir as novas mudanças.
+
+4- Submeter um Pull Request
+  -Após concluir suas alterações, adicione e comite as mudanças:
+
+  ```bash
+git add .
+git commit -m "Descrição das mudanças"
+git push origin nome-da-sua-contribuicao
+
+```
+  - Crie um Pull Request no GitHub para que seus commits possam ser revisados.
+  - Espere pela revisão dos mantenedores do projeto. Eles podem solicitar alterações adicionais ou fornecer feedback.
+
