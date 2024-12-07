@@ -1,0 +1,37 @@
+<ion-header [translucent]="true">
+  <ion-toolbar class="sidebar-login">
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">tabl</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card class="card-login">
+    <ion-card-header>
+  <ion-item>
+    <ion-label class="label1" position="stacked">E-mail</ion-label>
+    <ion-input type="email" [(ngModel)]="email" name="email" required></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label class="label2" position="stacked">Senha</ion-label>
+    <ion-input type="password" [(ngModel)]="senha" name="senha" required></ion-input>
+  </ion-item>
+
+  <ion-button expand="block" routerLink="/tabs/tab1">
+    Login
+  </ion-button>
+  <ion-button expand="block" routerLink="/tabs/tabc">
+    Criar uma conta
+  </ion-button>
+</ion-card-header>
+</ion-card>
+</ion-content>
+

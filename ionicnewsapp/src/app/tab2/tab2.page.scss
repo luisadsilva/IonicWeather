@@ -1,0 +1,45 @@
+.bodynav{
+    --background:linear-gradient(to left, #00FFFF, #4169E1,#191970);
+    --color: white;
+}
+
+.cadClima{
+    --background: #191970;
+}
+.card{
+    --background: #191970;
+}
+
+ion-item{
+    --background: #191970;
+    --color:white;
+}
+
+.IconTemp{
+    --color:white !important;
+    font-size: 50px;
+    }
+    
+    ion-icon.IconTemp{
+        color: white !important;
+    }
+    
+    ion-icon.iconUmidade{
+        color: white !important;
+    }
+    
+    ion-icon.iconExclui{
+        color: white !important;
+    }
+
+    .TempText{
+        font-size: 40px;
+        font-weight: bold;
+    --color:white;
+    }
+
+    .titleCity{
+        --color:white;
+        font-size: 20px;
+        font-weight: 500;
+    }

@@ -1,0 +1,35 @@
+<ion-header [translucent]="true">
+  <ion-toolbar class="sidbar-cadastro">
+    <ion-title>Cadastro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+ 
+<ion-card class="card-cadastro">
+  <ion-card-header>
+  <ion-card-content class="ion-padding">
+    <form (ngSubmit)="onSubmit()" #cadastroForm="ngForm">
+      <ion-item>
+
+        <ion-label class="label1" position="stacked">Nome</ion-label>
+        <ion-input type="text" [(ngModel)]="nome" name="nome" required></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label class="label2" position="stacked">E-mail</ion-label>
+        <ion-input type="email" [(ngModel)]="email" name="email" required></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label class="label3" position="stacked">Senha</ion-label>
+        <ion-input type="password" [(ngModel)]="senha" name="senha" required></ion-input>
+      </ion-item>
+
+      <ion-button class="button-cadas" type="submit" [disabled]="cadastroForm.invalid">
+        Cadastrar
+      </ion-button>
+
+    </form>
+</ion-card-content>
+</ion-card-header>
+<ion-card>

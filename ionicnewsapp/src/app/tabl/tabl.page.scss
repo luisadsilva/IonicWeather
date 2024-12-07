@@ -1,0 +1,47 @@
+ion-button{
+    --background: linear-gradient(to left, #00FFFF, #4169E1,#191970);
+    color: white !important;
+    border: none !important;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    font-size: 16px;
+    font-weight: bold;
+    justify-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.sidebar-login{
+    --background: linear-gradient(to left, #00FFFF, #4169E1,#191970);
+    --color:white;
+}
+
+.label1{
+    font-size: 20px;
+    --color:#191970;
+    font-weight: 600;
+}
+
+.label2{
+    font-size: 20px;
+    --color:#191970;
+    font-weight: 600;
+}
+
+.card-login{
+    --background: white;
+
+}
+
+ion-item{
+    --background: white;
+}
+
+.card-login{
+    --background: white;
+    display: flex;
+    margin-bottom: 15rem;
+}

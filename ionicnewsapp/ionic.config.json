@@ -1,0 +1,7 @@
+{
+  "name": "ApiClima",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

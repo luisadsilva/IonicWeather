@@ -1,0 +1,81 @@
+.cardClima{
+  --background: #191970;      
+}
+
+.buttonbuscar{
+--background: linear-gradient(to left, #00FFFF, #4169E1,#191970);
+ color: white !important;
+ border: none !important;
+ border-radius: 8px;
+ padding: 1rem 2rem;
+ font-size: 16px;
+ font-weight: bold;
+ justify-items: center;
+ justify-content: center;
+ width: 100%;
+ max-width: 150px;
+ display: block;
+ margin: 0 auto;
+}
+
+.bodynav{
+    --background:linear-gradient(to left, #00FFFF, #4169E1,#191970);
+    --color: white;
+}
+
+
+
+.titleCity{
+    --color:white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.content{
+    --background:#191970;
+}
+
+ion-item{
+    --background: #191970;
+    --color:white;
+}
+
+.TempText{
+    font-size: 40px;
+    font-weight: bold;
+--color:white;
+}
+
+.IconTemp{
+--color:white !important;
+font-size: 50px;
+}
+
+ion-icon.IconTemp{
+    color: white !important;
+}
+
+ion-icon.iconUmidade{
+    color: white !important;
+}
+
+ion-icon.iconFavo{
+    color: white !important;
+}
+
+.Input{
+    width: 100%;                   
+    font-size: 1rem;
+}
+
+.cardBusca{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;             
+    gap: 1rem;                       
+    width: 100%;                     
+    max-width: 98%;               
+    margin: 0 auto;                 
+    padding: 1rem;       
+}
+

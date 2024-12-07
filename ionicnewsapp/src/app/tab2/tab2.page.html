@@ -1,0 +1,37 @@
+<ion-header [translucent]="true">
+  <ion-toolbar class="bodynav">
+    <ion-title>
+      ApiClima
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Favoritos</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card *ngFor="let cidade of cidadesFavoritas">
+    <ion-card-header class="cadClima" >
+      <ion-card-title class="titleCity" >
+        {{ cidade.name }}
+      </ion-card-title>
+    <ion-card-content class="card">
+      <ion-item class="TempText">
+        <ion-icon name="cloudy-night-outline" slot="start" class="IconTemp"></ion-icon> {{ cidade.temp | number: '1.0-0' }}°C
+      </ion-item>
+      <ion-item>
+      {{ cidade.description | titlecase }}
+      </ion-item>
+      <ion-item>
+        <ion-icon name="thermometer-outline" slot="start" class="iconUmidade"></ion-icon> Umidade: {{ cidade.humidity }}%
+      </ion-item>
+      <ion-button (click)="removerFavorito(cidade)"  fill="clear">
+        <ion-icon name="trash-outline" class="iconExclui"></ion-icon>
+      </ion-button>
+    </ion-card-content>
+  </ion-card-header>
+  </ion-card>
+</ion-content>
